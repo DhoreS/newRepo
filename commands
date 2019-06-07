@@ -1,3 +1,4 @@
+//commands for gitlab and github only change remote address 
  mkdir devpractice
  1976  cd devpractice/
  1977  ls
