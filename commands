@@ -1,0 +1,28 @@
+ mkdir devpractice
+ 1976  cd devpractice/
+ 1977  ls
+ 1978  mkdir gitlab
+ 1979  cd gitlab/
+ 1980  git init
+ 1981  git status
+ 1982  code .
+ 1983  git add .
+ 1984  git status
+ 1985  git commit -m 'first try'
+ 1986  git checkout -b product
+ 1987  git status
+ 1988  code .
+ 1989  git add .
+ 1990  git status
+ 1991  git commit -m 'product commiting'
+ 1992  git config --global user.name "Shraddha Sanjay Dhore"
+ 1993  git config --global user.email "dhoreshraddha.23@gmail.com"
+ 1994  git remote add origin http://sunbeamgit/SD_23/newproject.git
+ 1995  git checkout master
+ 1996  git merger product
+ 1997  git merge product
+ 1998  git push -u origin master
+ 1999  git config --global user.name
+ 2000  git config --global user.email
+ 2001  history
+
